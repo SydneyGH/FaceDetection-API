@@ -61,13 +61,6 @@ const handleApiCall = (req,res) =>{
         }
     );
 }
-//   + 'face-detection' + "/outputs", 
-//   clarifaiRequest(req.body.input))
-// 	.then(result => result.json())
-// 	.then(data => {
-// 		  res.json(data);
-// 	})
-// 	.catch(err => res.status(400).json('unable to work with API'));
 
 const handleImagePut = (req, res, db) => {
     const { id } = req.body;

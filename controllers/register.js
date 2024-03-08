@@ -26,8 +26,6 @@ const handleRegister = (req, res, db, bcrypt) => {
         .then(trx.commit)
         .catch(trx.rollback)
     })
-    // bcrypt.compareSync("bacon", hash); // true
-    // bcrypt.compareSync("veggies", hash); // false
     .catch(err => res.status(400).json('unable to register'))
 }
 

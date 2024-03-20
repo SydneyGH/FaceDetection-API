@@ -1,6 +1,9 @@
 {
   "name": "facerecognition-api",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=18.18.0 <19.0.0"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
